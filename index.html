@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <!--estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="/images/icon.png" type="image/gif">
+    <!--estilos-->
+    <!--js-->
+    <script src="./js/principal.js"></script>
+    <!--js-->
+    <title>Universidad de los Andes</title>
+
+</head>
+
+<body>
+    <!--navegacion-->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark align-items-stretch">
+        <button class="navbar-toggler float-left collapsed" type="button" data-toggle="collapse"
+            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon-close"></span>
+        </button>
+        <a class="navbar-brand mx-auto" href="/"><img src="images/Grupo 5267.png" style="padding-bottom: 5px;"></a>
+        <!--navegacion D-->
+        <div class="collapse navbar-collapse justify-content-center navbar-nav align-items-stretch "
+            id="navbarNavAltMarkup">
+            <ul class="nav pt-2 navbarR"
+                style="width: 70%;display: flex;flex-direction: row;justify-content: flex-end;">
+                <li class="nav-item">
+                    <a class="nav-item nav-link " href="#VerificaTuPuntaje">Verifica tu puntaje </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-item nav-link activeA" href="#AsesoramientoAlPostulante">Asesoramiento al postulante
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="#InformacionCarreras">Información de carreras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="#PreguntasFrecuentes">Preguntas frecuentes</a>
+                </li>
+            </ul>
+            <ul class="nav pt-2 navbarR2" style="width: 30%;display: flex;flex-direction: row;justify-content: center;">
+                <li class="nav-item">
+                    <a class="nav-item nav-link aRRSS" href="https://www.facebook.com/uandes" target="_blank"><img
+                            src="./images/rrss/facebook.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link aRRSS" href="https://www.instagram.com/uandes/" target="_blank"><img
+                            src="./images/rrss/instagram.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link aRRSS" href="https://www.youtube.com/user/uandesvideos"
+                        target="_blank"><img src="./images/rrss/youtube.png"></a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--navegacion-->
+
+    <!--carrusel-->
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption">
+                    <h1 class="fade-in">Semana del </h1>
+                    <div class="red-title d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="fade-in">Postulante Online</h2>
+                    </div>
+                    <br>
+                    <br>
+                    <h3>11 al 15 de Febrero</h3>
+                    <h4>09:00 a 18:00 horas</h4>
+                </div>
+                <picture>
+                    <source media="(min-width:800px)" srcset="./images/uaCarrusel.jpg">
+                    <source media="(min-width:100px)" srcset="./images/uaCarrusel3.jpg">
+                    <img src="./images/uaCarrusel.jpg" style="filter: brightness(60%);" class="d-block">
+                </picture>
+
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">
+                    <h1>Semana del </h1>
+                    <div class="red-title d-flex flex-column justify-content-center align-items-center">
+                        <h2>Postulante Online</h2>
+                    </div>
+                    <br>
+                    <br>
+                    <h3>11 al 15 de Febrero</h3>
+                    <h4>09:00 a 18:00 horas</h4>
+                </div>
+                <picture>
+                    <source media="(min-width:800px)" srcset="./images/uaCarrusel2.jpg">
+                    <source media="(min-width:100px)" srcset="./images/uaCarrusel4.jpg">
+                    <img src="./images/uaCarrusel2.jpg" style="filter: brightness(60%);" class="d-block">
+                </picture>
+
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <div class="arrowCarrusel"> <span class="carousel-control-prev-icon" aria-hidden="true"></span></div>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <div class="arrowCarrusel"> <span class="carousel-control-next-icon" aria-hidden="true"></span></div>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--carrusel-->
+    <!--stepper-->
+    <div class="container-fluid mt-5 fade item fade-in stepperM" style="padding-right: 140px; padding-left: 140px; ">
+        <div class="md-stepper-horizontal orange">
+            <div class="md-step active-p">
+                <div class="md-step-circle">
+                    <div class="md-step-circle-inner"></div>
+                </div>
+                <div class="md-step-title">
+                    <div class="md-step-date">FEB 11</div>
+                    <div class="md-step-separator">|</div>
+                    <div class="md-step-desc">RESULTADOS DE PUNTAJES PDT INICIO ETAPA DE POSTULACIONES</div>
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right" style="border-top: 2px solid #7c7c7c;"></div>
+            </div>
+            <div class="md-step">
+                <div class="md-step-circle">
+                    <div class="md-step-circle-inner"></div>
+                </div>
+                <div class="md-step-title" style="margin-top: -80px;">
+                    <div class="md-step-date">FEB 28</div>
+                    <div class="md-step-separator">|</div>
+                    <div class="md-step-desc">RESULTADOS DEL PROCESO DE SELECCIÓN</div>
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
+            </div>
+            <div class="md-step">
+                <div class="md-step-circle">
+                    <div class="md-step-circle-inner"></div>
+                </div>
+                <div class="md-step-title">
+                    <div class="md-step-date">MAR 01</div>
+                    <div class="md-step-separator">|</div>
+                    <div class="md-step-desc">PROCESO DE MATRÍCULA</div>
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
+            </div>
+            <div class="md-step">
+                <div class="md-step-circle">
+                    <div class="md-step-circle-inner"></div>
+                </div>
+                <div class="md-step-title" style="margin-top: -80px;">
+                    <div class="md-step-date">MAR 08</div>
+                    <div class="md-step-separator">|</div>
+                    <div class="md-step-desc">INICIO DE CLASES</div>
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
+            </div>
+            <div class="md-step">
+                <div class="md-step-circle">
+                    <div class="md-step-circle-inner"></div>
+                </div>
+                <div class="md-step-title">
+                    <div class="md-step-date">MAR 10</div>
+                    <div class="md-step-separator">|</div>
+                    <div class="md-step-desc">CIERRE PERIODO DE RETRACTO</div>
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
+            </div>
+        </div>
+    </div>
+    <!--stepper-->
+    <!--verifica tu puntaje-->
+    <!--verifica tu puntaje D-->
+    <div class="vtp d-flex flex-row justify-content-between fade-in displayDesktop" style="height: 50vh;">
+        <a name="VerificaTuPuntaje"></a>
+        <div class="d-flex justify-content-end flex-column" style="width:33%">
+            <img src="/images/Imagen 36.png" style="width:50%">
+        </div>
+        <div class="d-flex justify-content-center flex-column" style="width:33%">
+            <h5>Verifica</h5>
+            <h6 style="width: max-content;">tu puntaje</h6>
+            <p class="ptUANDES">Calcula tu puntaje <b>UANDES</b> y conoce a qué carrera<br> y becas puedes postular con
+                nosotros.</p>
+        </div>
+        <div class="d-flex justify-content-center flex-column" style="width:33%; align-items: center;">
+            <button class="btn btn-warning" style="width: 55%;"> <b>> Verifica Aquí</b></button>
+        </div>
+    </div>
+    <!--verifica tu puntaje M-->
+    <div class="vtp d-flex flex-column fade-in displayMobile" style="height: 65vh;">
+        <a name="VerificaTuPuntaje"></a>
+        <div class="d-flex flex-row" style="min-height:80%">
+            <div class="d-flex justify-content-end flex-column" style="height: 100%; width: 50%;">
+                <img src="/images/Imagen 36.png" style="height:55vh; width: 35vh;" class="imagenVerificaPuntaje">
+            </div>
+            <div class="d-flex justify-content-center flex-column" style="width: 50%;">
+                <h5>Verifica</h5>
+                <h6 style="width: max-content;">tu puntaje</h6>
+                <p class="ptUANDES">Calcula tu puntaje <b>UANDES</b> y conoce a qué carrera<br> y becas puedes postular
+                    con
+                    nosotros.</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center flex-column" style="width:100%; align-items: center;">
+            <button class="btn btn-warning" style="width: 95%;"> <b>> Verifica Aquí</b></button>
+        </div>
+    </div>
+    <!--verifica tu puntaje-->
+    <!--asesoramiento al postulante-->
+    <div class="aap d-flex flex-column fade-in" style="height: 100%;">
+        <a name="AsesoramientoAlPostulante"></a>
+        <div class=" d-flex flex-column justify-content-center" style="align-items: center;">
+            <img src="/images/noun_contact_1872936.png" style="height: 87px;width: 87px;">
+            <h7>Asesoramiento</h7>
+            <h8>Al Postulante</h8>
+            <p class="asUANDES asUANDESP">
+                Si tienes dudas, conversa con un asesor UANDES en tiempo real sobre admisión, becas y carreras.
+            </p>
+        </div>
+        <!--asesoramiento al postulante D-->
+        <div class="d-flex flex-row justify-content-center align-items-start mb-4 displayDesktopAP">
+            <div class="d-flex flex-row align-items-start" style="width: 33%; height: 100%;">
+                <div class="d-flex flex-column justify-content-end" style="margin-top: 4rem;">
+                    <img src="/images/Grupo 5502.png" style="height: 72px;width: auto;">
+                </div>
+                <div class="d-flex flex-column align-items-start" style="margin-left: 20px;">
+                    <p class="asPasos ">Paso 1</p>
+                    <p class="asUANDES" style="margin: 0px;">
+                        Haz click en el botón del chat ubicado a la derecha de tu pantalla.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-start step-section" style="width: 33%; height: 100%;">
+                <div class="d-flex flex-column justify-content-end" style="margin-top: 4rem;">
+                    <img src="/images/Grupo 5438.png" style="height: 56px;width: auto;">
+                </div>
+                <div class="d-flex flex-column align-items-start" style="margin-left: 20px;">
+                    <p class="asPasos">Paso 2</p>
+                    <p class="asUANDES" style="margin: 0px;">
+                        Ingresa los datos solicitados y selecciona el tema de interés en el cual necesites asesorarte.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-start" style="width: 33%; height: 100%;">
+                <div class="d-flex flex-column justify-content-end" style="margin-top: 4.6rem;">
+                    <img src="/images/Grupo 5433.png" style="height: 50px;width: auto;">
+                </div>
+                <div class="d-flex flex-column align-items-start" style="margin-left: 20px;">
+                    <p class="asPasos">Paso 3</p>
+                    <p class="asUANDES" style="margin: 0px;">
+                        Elige cómo quieres que nos comuniquemos contigo: chat, llamada o videollamada. En un instante te
+                        contactará tu asesor para resolver todas tus dudas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--asesoramiento al postulante M-->
+        <div class="d-flex flex-column justify-content-center align-items-start mb-4 displayMobileAP"
+            style="width: 100%;">
+            <div class="d-flex flex-column align-items-start" style="width: 90%; height: 100%;margin: 3vh;">
+                <div class="d-flex flex-row">
+                    <img src="/images/Grupo 5502.png" style="height: 72px;width: auto;">
+                    <div class="d-flex flex-column align-items-start" style="margin-left: 3vh;">
+                        <p class="asPasos ">Paso 1</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <p class="asUANDES" style="margin: 0px;">
+                        Haz click en el botón del chat ubicado a la derecha de tu pantalla.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-start" style="width: 90%; height: 100%;margin: 3vh;">
+                <div class="d-flex flex-row">
+                    <img src="/images/Grupo 5438.png" style="height: 56px;width: auto;">
+                    <div class="d-flex flex-column align-items-start" style="margin-left: 3vh;">
+                        <p class="asPasos">Paso 2</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <p class="asUANDES" style="margin: 0px;">
+                        Ingresa los datos solicitados y selecciona el tema de interés en el cual necesites asesorarte.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-start" style="width: 90%; height: 100%;margin: 3vh;">
+                <div class="d-flex flex-row">
+                    <img src="/images/Grupo 5433.png" style="height: 50px;width: auto;">
+                    <div class="d-flex flex-column align-items-start" style="margin-left: 3vh;">
+                        <p class="asPasos">Paso 3</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <p class="asUANDES" style="margin: 0px;">
+                        Elige cómo quieres que nos comuniquemos contigo: chat, llamada o videollamada. En un instante te
+                        contactará tu asesor para resolver todas tus dudas.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="w-100">
+            <img class="w-100 fade-in" src="/images/Imagen 37.png">
+        </div>
+    </div>
+    <!--asesoramiento al postulante-->
+    <!--venir a la UANDES-->
+    <!--venir a la UANDES D-->
+    <div class="vaUANDES d-flex flex-row justify-content-between fade-in displayDesktopVU" style="height: 30vh;">
+        <div class="d-flex justify-content-center flex-column" style="width:30%">
+            <h7 style="font-size: 25px;">¿Quiéres venir </h7>
+            <h7>a la UANDES?</h7>
+        </div>
+        <div class="d-flex justify-content-center flex-column align-items-start"
+            style="width:70%; align-items: center;">
+            <p class="asUANDES" style="margin-top: 0px;">
+                En esta plataforma puedes asesorarte y comunicarte con nosotros sin necesidad de venir
+                al campus <b>UANDES</b>.<br><br>
+                De todas formas, estaremos atendiendo de manera presencial, con todas las medidas sanitarias
+                correspondientes según el protocolo sanitario.
+                Puedes venir con solo un acompañante
+            </p>
+            <p class="modalP" data-toggle="modal" data-target="#modalHorarios">
+                Revisa aquí los días y horarios de carreras
+            </p>
+        </div>
+    </div>
+    <!--venir a la UANDES M-->
+    <div class="vaUANDES d-flex flex-row justify-content-between fade-in displayMobileVU" style="height: 100%;">
+        <div class="d-flex justify-content-center flex-column" style="width:100%; align-items: center;">
+            <div class="d-flex justify-content-center flex-column align-items-center" style="width:100%">
+                <h7>¿Quiéres venir </h7>
+                <h7>a la UANDES?</h7>
+            </div>
+            <p class="asUANDES" style="margin-top: 0px;padding: 1rem;">
+                En esta plataforma puedes asesorarte y comunicarte con nosotros sin necesidad de venir
+                al campus <b>UANDES</b>.<br><br>
+                De todas formas, estaremos atendiendo de manera presencial, con todas las medidas sanitarias
+                correspondientes según el protocolo sanitario.
+                Puedes venir con solo un acompañante
+            </p>
+            <p class="modalP" data-toggle="modal" data-target="#modalHorarios" style="padding-bottom: 1rem;">
+                Revisa aquí los días y horarios de carreras
+            </p>
+        </div>
+    </div>
+    <!--modal horarios-->
+    <div class="modal" id="modalHorarios" tabindex="-1" role="dialog" aria-labelledby="modalHorariosLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">Cerrar <img src="/images/Grupo 5510.png"></span>
+                    </button>
+                </div>
+                <div class="modal-body overflow-auto">
+                    <div>
+                        <h9 style="color:#4A4A4A">HORARIO ATENCIÓN</h9>
+                        <p class="pPFT">Monseñor Alvaro del Portillo 12455</p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <table class="tablaModal">
+                                <thead>
+                                    <tr>
+                                        <th class="tablaModalHead" colspan="3">
+                                            <h9 style="color:#4A4A4A">Jueves 11 </h9>
+                                            <p>9:00 am a 19:00 pm</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablaModalHead2">Edificio Humanidades</td>
+                                        <td class="tablaModalHead2">Edificio Ciencias</td>
+                                        <td class="tablaModalHead2">Edificio Biblioteca Pérgola</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablaModalBody">Pedagogía Básica<br>
+                                            Pedagogía Básica Bilingüe<br>
+                                            Educación de Párvulos<br>
+                                            Comunicación Audiovisual<br>
+                                            Periodismo<br>
+                                            Publicidad</td>
+                                        <td class="tablaModalBody">
+                                            Kinesiología<br>
+                                            Terapia Ocupacional<br>
+                                            Nutrición y Dietética<br>
+                                            Fonoaudiología
+                                        </td>
+                                        <td class="tablaModalBody">Enfemería<br>
+                                            Obstetricia y Puericultura<br>
+                                            Psicología<br>
+                                            Bachillerato<br>
+                                            Programas de Admisión y Becas
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col">
+                            <table class="tablaModal">
+                                <thead>
+                                    <tr>
+                                        <th class="tablaModalHead" style="background-color: #FCE3A1 ;" colspan="3">
+                                            <h9 style="color:#4A4A4A">Viernes 12 </h9>
+                                            <p>9:00 am a 19:00 pm</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tablaModalHead2" style="background-color: #FEF7E6;">Edificio
+                                            Humanidades</td>
+                                        <td class="tablaModalHead2" style="background-color: #FEF7E6;">Edificio Ciencias
+                                        </td>
+                                        <td class="tablaModalHead2" style="background-color: #FEF7E6;">Edificio
+                                            Biblioteca Pérgola</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tablaModalBody">Literatura<br>
+                                            Filosofía<br>
+                                            Historia<br>
+                                            Derecho
+                                        </td>
+                                        <td class="tablaModalBody">
+                                            Medicina<br>
+                                            Odontología
+                                        </td>
+                                        <td class="tablaModalBody">Administración de Servicios<br>
+                                            Ingeniería Civil<br>
+                                            Ingeniería Comercial<br>
+                                            Bachillerato<br>
+                                            Programas de Admisión y Becas
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal horarios-->
+    <!--venir a la UANDES-->
+    <!--informacion de carreras-->
+    <div class="d-flex flex-column align-items-center fade-in icM" style="padding: 4rem;">
+        <a name="InformacionCarreras"></a>
+        <div class="titulo">
+            <h5>Información</h5>
+            <h6 class="icT">de Carreras</h6>
+        </div>
+        <div class="carreras d-flex flex-column" style="width: 100%;">
+            <!--informacion de carreras D-->
+            <div class="navCarreras d-flex justify-content-center navbar-nav align-items-stretch displayDesktopIC">
+                <ul class="nav navC pt-2"
+                    style="width: 100%;display: flex;flex-direction: row;justify-content: space-between;">
+                    <li class="nav-item">
+                        <a class="nav-item nav-link navCF" href="#">ÁREA INGENIERÍA Y ADMINISTRACIÓN </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="#">ÁREA COMUNICACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="#">ÁREA EDUCACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link " href="#">ÁREA HUMANIDADES </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="#">ÁREA SALUD</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-item nav-link activeA" href="#">PROGRAMAS DE BACHILLERATO
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!--informacion de carreras M-->
+            <div class="navCarreras d-flex justify-content-center navbar-nav align-items-stretch displayMobileIC">
+                <div class="dropdown" style="padding-top: 2rem; margin-top: 1rem; background-color: white;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PROGRAMAS DE BACHILLERATO
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" style="cursor:pointer">ÁREA INGENIERÍA Y ADMINISTRACIÓN</a>
+                        <a class="dropdown-item" style="cursor:pointer">ÁREA COMUNICACIÓN</a>
+                        <a class="dropdown-item" style="cursor:pointer">ÁREA EDUCACIÓN</a>
+                        <a class="dropdown-item" style="cursor:pointer">ÁREA HUMANIDADES</a>
+                        <a class="dropdown-item" style="cursor:pointer">ÁREA SALUD</a>
+                        <a class="dropdown-item active" style="cursor:pointer">PROGRAMAS DE BACHILLERATO</a>
+                    </div>
+                </div>
+            </div>
+            <div class="infoCarreras" style="background-color: white;">
+                <div class="row no-gutters">
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row no-gutters" style="padding-bottom: 20px;">
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col tablaCol">
+                        <table class="tablaCarreras">
+                            <thead>
+                                <tr>
+                                    <th class="tablaHead" colspan="2">BACHILLERATO DE ADMINISTRACIÓN DE SERVICIOS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PUNTAJES</b></td>
+                                    <td class="tablaInfo"><b>PUNTAJE DE CORTE:</b> 563,70 puntos</td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>PONDERACIONES PDT</b></td>
+                                    <td class="tablaInfo"> <b>NEM:</b> 10%<br>
+                                        <b>RANKING:</b> 15%<br>
+                                        <b>COMPRESIÓN LECTORA:</b> 25%<br>
+                                        <b>MATEMÁTICA:</b> 40%<br>
+                                        <b>CIENCIAS O HISTORIA (OPCIONAL):</b> 10%<br>
+                                        <b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tablaTitulo"><b>VALORES Y ARANCELES</b></td>
+                                    <td class="tablaInfo"><b>VALOR MATRÍCULA:</b> 16 UF<br>
+                                        <b>ARANCEL:</b> 175 UF
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--informacion de carreras-->
+    <!--preguntas frecuentes-->
+    <div class="d-flex flex-row fade-in">
+        <a name="PreguntasFrecuentes"></a>
+        <div class="d-flex flex-column justify-content-start pfM"
+            style="margin-left: 5rem;margin-right: 5rem;max-width: 70%;">
+            <div class="pftM" style="margin-bottom: 2rem;">
+                <h5 style="display: inline-block;">Preguntas</h5>
+                <h6 style="display: inline-block;">Frecuentes</h6>
+            </div>
+            <div class="panel-group pregFrec" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a id="collapse-q1" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">1.</div>
+                                    <div class="">¿Cómo se postula a la Universidad?</div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">Las postulaciones a la Universidad se deben realizar a través de la
+                            plataforma DEMRE en <a href="https://demre.cl/" target="_blank">www.demre.cl</a> teniendo 10
+                            alternativas de carrera con las universidades
+                            correspondientes, las cuales deben ordenarse según tu prioridad. Puedes cambiar tu
+                            postulación las veces que consideres necesario, hasta el lunes 15 de febrero a las 13:00
+                            horas, luego de este periodo no podrás realizar cambios en tu postulación. </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+
+                            <a id="collapse-q2" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">2.</div>
+                                    <div class="">¿Se puede postular de forma
+                                        directa con la Universidad?</div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+
+                            <a id="collapse-q3" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">3.</div>
+                                    <div class="">¿Qué significa estar
+                                        convocado?</div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+
+                            <a id="collapse-q4" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">4.</div>
+                                    <div class="">¿Cuándo informan si quedé
+                                        convocado en la Universidad?</div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a id="collapse-q5" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">5.</div>
+                                    <div class="">¿Cuál es el plazo que tengo para matricularme y no perder mi cupo?
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a id="collapse-q6" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">6.</div>
+                                    <div class="">Si quedé en lista de espera, ¿Cómo sabré si corrió la lista y quedé en
+                                        mi carrera de
+                                        interés?</div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a id="collapse-q7" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">7.</div>
+                                    <div class="">¿Cómo se realizará el proceso de matrícula?</div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a id="collapse-q8" class="collapsed d-flex flex-row justify-content-between"
+                                data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                                <div class="d-flex flex-row">
+                                    <div class="d-flex flex-column justify-content-center" style="margin-right: 20px;">
+                                        <img class="open-question" src="/images/Componente 3738 – 6.png">
+                                        <img class="close-question" src="/images/Línea 473.png">
+                                    </div>
+                                    <div class="pfNumero" style="margin-right: 4rem;">8.</div>
+                                    <div class="">Si me matriculé de forma anticipada en una Universidad y luego
+                                        cambié de opinión y me quiero cambiar. ¿Puedo hacer retracto de
+                                        matrícula?</div>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <img class="open-question oq2" src="/images/Componente 3738 – 6.png">
+                                    <img class="close-question cq2" src="/images/Línea 473.png">
+                                </div>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--preguntas frecuentes M-->
+            <div class="d-flex flex-column justify-content-start displayMobilePF">
+                <div class="d-flex flex-column" style="background: white;padding: 30px;">
+                    <h9>¿No encuentras lo que buscas?</h9>
+                    <p class="pPFT">SOLICITA INFORMACIÓN EN LÍNEA</p>
+
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column" style="height: 50%;padding-top: 10px;">
+                            <img src="/images/Atoms---Icons---white---32px---rrss---facebook.png"
+                                style="width: 22px;height: auto;">
+                        </div>
+                        <div class="d-flex flex-column" style="padding-left: 10px;">
+                            <p class="pPF"> <a href="https://www.facebook.com/irpormas" target="_blank"> Ir a
+                                    Facebook</a><br>
+                                /irpormas</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column" style="height: 50%;padding-top: 10px;">
+                            <img src="/images/Atoms---Icons---32px---rrss---instagram.png"
+                                style="width: 22px;height: auto;">
+                        </div>
+                        <div class="d-flex flex-column" style="padding-left: 10px;">
+                            <p class="pPF"> <a href="https://www.instagram.com/admisionuandes/" target="_blank"> Ir a
+                                    Instagram</a><br>
+                                /admisionuandes</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-column">
+                            <img src="/images/Grupo 5442.png" style="width: 23px;height: auto;">
+                        </div>
+                        <div class="d-flex flex-column" style="padding-left: 10px;">
+                            <p class="pPF"> <a href="https://admision.uandes.cl/" target="_blank">Ir a
+                                    admision.uandes.cl</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--preguntas frecuentes D-->
+        <div class="d-flex flex-column justify-content-start displayDesktopPF" style="padding-right: 4rem;">
+            <div class="d-flex flex-column" style="background: white;padding: 30px;">
+                <h9>¿No encuentras lo que buscas?</h9>
+                <p class="pPFT">SOLICITA INFORMACIÓN EN LÍNEA</p>
+
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column" style="height: 50%;padding-top: 10px;">
+                        <img src="/images/Atoms---Icons---white---32px---rrss---facebook.png"
+                            style="width: 22px;height: auto;">
+                    </div>
+                    <div class="d-flex flex-column" style="padding-left: 10px;">
+                        <p class="pPF"> <a href="https://www.facebook.com/irpormas" target="_blank"> Ir a
+                                Facebook</a><br>
+                            /irpormas</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column" style="height: 50%;padding-top: 10px;">
+                        <img src="/images/Atoms---Icons---32px---rrss---instagram.png"
+                            style="width: 22px;height: auto;">
+                    </div>
+                    <div class="d-flex flex-column" style="padding-left: 10px;">
+                        <p class="pPF"> <a href="https://www.instagram.com/admisionuandes/" target="_blank"> Ir a
+                                Instagram</a><br>
+                            /admisionuandes</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column">
+                        <img src="/images/Grupo 5442.png" style="width: 23px;height: auto;">
+                    </div>
+                    <div class="d-flex flex-column" style="padding-left: 10px;">
+                        <p class="pPF"> <a href="https://admision.uandes.cl/" target="_blank">Ir a
+                                admision.uandes.cl</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--preguntas frecuentes-->
+    <!--mas informacion-->
+    <div class="d-flex flex-row justify-content-center masInfo" style="height: 100%;">
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <img class="fade-in" src="/images/Trazado 28090.png" style="width: 84px;height: 84px;"><br>
+
+                <h7 class="fade-in">¿Necesitas</h7>
+
+                <h8 class="fade-in">más información?</h8>
+            </div>
+            <div class="d-flex flex-row justify-content-center" style="margin-top: 3rem;margin-bottom: 3rem;">
+                <button class="btn btn-warning fade-in" style="width: 80%;"
+                    onclick=" window.open('https://admision.uandes.cl/','_blank')">
+                    <b>> Visita admision.uandes.cl</b>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--mas informacion-->
+    <!--pie de pagina-->
+    <!--pie de pagina D-->
+    <div class="d-flex flex-row justify-content-between piePagina displayDesktopPP">
+        <div class="d-flex flex-column">
+            <img src="/images/Grupo 5267.png" style="width: 158px;height: 63px;">
+        </div>
+        <div class="d-flex flex-row align-items-center" style="padding-bottom: 30px;">
+            <img src="/images/noun_Pin_-1.png" style="width: 24px;height: 34px;margin-right: 10px;margin-bottom: 10px;">
+            <p>Av. Monseñor Álvaro del Portillo 12.455
+                <br>Las Condes, Santiago, Chile
+            </p>
+        </div>
+        <div class="d-flex flex-row align-items-center" style="padding-bottom: 30px;">
+            <img src="/images/Grupo 5132.png" style="width: 22px;height: 33px; margin-right: 10px;margin-bottom: 10px;">
+            <p><u>comunicaciones@uandes.cl</u><br>
+                (+56 2) 26181000</p>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+                <img src="/images/Artboard.png" style="width: 270px;height: 55px;">
+            </div>
+            <div class="d-flex flex-row justify-content-end" style="padding-top: 15px;">
+                <a href="https://www.facebook.com/uandes" target="_blank" class="aRRSS"><img
+                        src="./images/rrss/facebook.png" style="width: 33px;height: 33px;margin-right: 10px;""></a>
+                <a href=" https://www.instagram.com/uandes/" target="_blank" class="aRRSS"><img
+                        src=" ./images/rrss/instagram.png" style="width: 33px;height: 33px;margin-right: 10px;""></a>
+                <a href=" https://www.youtube.com/user/uandesvideos" target="_blank" class="aRRSS"><img
+                        src=" ./images/rrss/youtube.png" style="width: 33px;height: 33px;"></a>
+            </div>
+        </div>
+    </div>
+    <!--pie de pagina M-->
+    <div class="d-flex flex-row justify-content-center piePagina displayMobilePP">
+        <div class="d-flex flex-column align-items-center">
+            <img src="/images/Grupo 5267.png" style="width: 158px;height: 63px;margin-bottom: 1rem;">
+            <img src="/images/noun_Pin_-1.png" style="width: 24px;height: 34px;margin-right: 10px;margin-bottom: 10px;">
+            <p style="text-align: center;">Av. Monseñor Álvaro del Portillo 12.455
+                <br>Las Condes, Santiago, Chile
+            </p>
+            <img src="/images/Grupo 5132.png" style="width: 22px;height: 33px; margin-right: 10px;margin-bottom: 10px;">
+            <p style="text-align: center;"><u>comunicaciones@uandes.cl</u><br>
+                (+56 2) 26181000</p>
+            <img src="/images/Artboard.png" style="width: 270px;height: 55px;">
+
+            <div class="d-flex flex-row justify-content-center" style="padding-top: 15px;">
+                <a href="https://www.facebook.com/uandes" target="_blank" class="aRRSS"><img
+                        src="./images/rrss/facebook.png" style="width: 33px;height: 33px;margin-right: 10px;""></a>
+                <a href=" https://www.instagram.com/uandes/" target="_blank" class="aRRSS"><img
+                        src=" ./images/rrss/instagram.png" style="width: 33px;height: 33px;margin-right: 10px;""></a>
+                <a href=" https://www.youtube.com/user/uandesvideos" target="_blank" class="aRRSS"><img
+                        src=" ./images/rrss/youtube.png" style="width: 33px;height: 33px;"></a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!--pie de pagina-->
+    <!--smooth scroll-->
+    <script src="https://unpkg.com/fadin"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fadin('.fade')
+        });
+    </script>
+    <!--smooth scroll-->
+</body>
+
+</html>
