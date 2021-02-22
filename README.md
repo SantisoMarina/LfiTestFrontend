@@ -1,19 +1,10 @@
 # Evaluación FrontEnd - Lfi
 
-## Pasos para poder visualizar la página
-~~1. Instalar [Node.js](https://nodejs.org/en/).~~
- ~~2. Realizar la descarga del proyecto.~~
- ~~3. Abrir una terminal cmd  en la raíz del proyecto.~~
- ~~4. Ejecutar el comando: `npm i`~~
- ~~5. Una vez instalado todo, ejecutar el siguiente comando: `npm start`~~
- ~~6. Abrir en el navegador la siguiente dirección [localhost:3000](http://localhost:3000/).~~
-
 ## Tecnologías Utilizadas
  1. HTML
  2. CSS
  3. JavaScript
  4. Bootstrap 4
-~~5. Node.js -> **solamente utilicé esta tecnología para montar mi proyecto, no realicé lógica en este lenguaje.**~~
 
  ## Navegadores Probados
  1. Firefox 85.0.2 (64-bit).
