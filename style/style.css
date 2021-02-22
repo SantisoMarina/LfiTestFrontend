@@ -476,10 +476,11 @@ h9 {
 }
 .pregFrec a.collapsed {
   color: #37424a !important;
-  font-family: Montserrat-SemiBold;
+  font-family: Montserrat-Regular;
 }
 .panel-default {
   border-bottom: 2px solid #cdcdcd;
+  padding: 1rem 0.3rem;
 }
 .pPFT {
   font-size: 12px;
@@ -729,6 +730,9 @@ h9 {
   .imagenVerificaPuntaje {
     height: 40vh !important;
     width: 22vh !important;
+  }
+  .mobilePreguntasFrecuentes{
+    margin-bottom: 0rem !important;
   }
   .pfNumero {
     margin-right: 0.8rem !important;
